@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calender using grid</title>
+    <style>
+      .container {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        grid-template-rows: 50px repeat(5, 1fr);
+        row-gap: 10px;
+        column-gap: 15px;
+      }
+      .day,
+      .day1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: goldenrod;
+        border-radius: 10px;
+      }
+      .day1 {
+        background-color: lightgray;
+      }
+      .day p {
+        font-size: 25px;
+      }
+      h1 {
+        text-align: center;
+        font-size: 64px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        color: blueviolet;
+      }
+      body {
+        max-width: 1140px;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>January 2024</h1>
+    <div class="container">
+      <div class="day1">
+        <p>S</p>
+      </div>
+      <div class="day1">
+        <p>M</p>
+      </div>
+      <div class="day1">
+        <p>T</p>
+      </div>
+      <div class="day1">
+        <p>W</p>
+      </div>
+      <div class="day1">
+        <p>T</p>
+      </div>
+      <div class="day1">
+        <p>F</p>
+      </div>
+      <div class="day1">
+        <p>S</p>
+      </div>
+      <div style="visibility: hidden" class="day">
+        <p>31</p>
+      </div>
+      <div class="day">
+        <p>1</p>
+      </div>
+      <div class="day">
+        <p>2</p>
+      </div>
+      <div class="day">
+        <p>3</p>
+      </div>
+      <div class="day">
+        <p>4</p>
+      </div>
+      <div class="day">
+        <p>5</p>
+      </div>
+      <div class="day">
+        <p>6</p>
+      </div>
+      <div class="day">
+        <p>7</p>
+      </div>
+      <div class="day">
+        <p>8</p>
+      </div>
+      <div class="day">
+        <p>9</p>
+      </div>
+      <div class="day">
+        <p>10</p>
+      </div>
+      <div class="day">
+        <p>11</p>
+      </div>
+      <div class="day">
+        <p>12</p>
+      </div>
+      <div class="day">
+        <p>13</p>
+      </div>
+      <div class="day">
+        <p>14</p>
+      </div>
+      <div class="day">
+        <p>15</p>
+      </div>
+      <div class="day">
+        <p>16</p>
+      </div>
+      <div class="day">
+        <p>17</p>
+      </div>
+      <div class="day">
+        <p>18</p>
+      </div>
+      <div class="day">
+        <p>19</p>
+      </div>
+      <div class="day">
+        <p>20</p>
+      </div>
+      <div class="day">
+        <p>21</p>
+      </div>
+      <div class="day">
+        <p>22</p>
+      </div>
+      <div class="day">
+        <p>23</p>
+      </div>
+      <div class="day">
+        <p>24</p>
+      </div>
+      <div class="day">
+        <p>25</p>
+      </div>
+      <div class="day">
+        <p>26</p>
+      </div>
+      <div class="day">
+        <p>27</p>
+      </div>
+      <div class="day">
+        <p>28</p>
+      </div>
+      <div class="day">
+        <p>29</p>
+      </div>
+      <div class="day">
+        <p>30</p>
+      </div>
+      <div class="day">
+        <p>31</p>
+      </div>
+    </div>
+  </body>
+</html>
